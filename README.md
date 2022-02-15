@@ -15,6 +15,7 @@
 
 ## ⚙️  Setup
 ### DB password
+`kubectl create secret generic pgpassword --from-literal PGPASSWORD=enter your password`
 ### Deployment
 `kubectl apply -f k8s`
 ### Ingress Nginx Controller
@@ -52,6 +53,7 @@
 
 ## ⚙️  설정
 ### DB 비밀번호 생성
+`kubectl create secret generic pgpassword --from-literal PGPASSWORD=enter your password`
 ### k8s 폴더 전체 배포
 `kubectl apply -f k8s`
 ### Ingress Nginx Controller 설치 후 실행
